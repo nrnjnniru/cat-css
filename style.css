@@ -1,0 +1,89 @@
+/* CSS Cat Art */
+#css-cat-art {
+    padding: 60px 20px;
+    background-color: #eaf6ff;
+    text-align: center;
+  }
+  
+  .cat-art {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+  }
+  
+  .face {
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc99;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: inset 0 0 0 5px #d68d59;
+  }
+  
+  .ear {
+    width: 60px;
+    height: 60px;
+    background-color: #ffcc99;
+    position: absolute;
+    top: -30px;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  
+  .left-ear {
+    left: -10px;
+  }
+  
+  .right-ear {
+    right: -10px;
+  }
+  
+  .eye {
+    width: 25px;
+    height: 25px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+  }
+  
+  .left-eye {
+    left: 50px;
+  }
+  
+  .right-eye {
+    right: 50px;
+  }
+  
+  .nose {
+    width: 15px;
+    height: 15px;
+    background-color: #d2691e;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .whiskers {
+    width: 60px;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    top: 105px;
+  }
+  
+  .left-whiskers {
+    left: 0;
+    transform: rotate(10deg);
+  }
+  
+  .right-whiskers {
+    right: 0;
+    transform: rotate(-10deg);
+  }
+  
